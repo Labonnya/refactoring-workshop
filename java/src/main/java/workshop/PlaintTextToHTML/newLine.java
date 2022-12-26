@@ -1,6 +1,7 @@
-package plainTxttoHTML;
+package plainTextToHTML;
 
-public class newLine implements CharacterConvert {
+
+public class newLine implements CharacterConvert{
     @Override
     public boolean checknConvert(char c) {
         char match = '\n';
@@ -8,7 +9,9 @@ public class newLine implements CharacterConvert {
     }
 
     @Override
-    public String addconverted() {
+    public String addConverted() {
         return "<br />";
     }
 }
+
+
