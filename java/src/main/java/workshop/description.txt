@@ -1,0 +1,14 @@
+Plain Text To HTML
+1.	Large class smell – removed unnecessary methods  { pushACharacterToTheOutput(), stashNextCharacterAndAdvanceThePointer(), addNewLine() }
+2.	Switch case smell – method extract and implementing interface
+3.	Comment Smell – appropriate naming 
+
+FizzBuzz: 
+1.	Switch smell – method extraction 
+2.	Long method – extract method
+
+Trivia Game: 
+1.	Large class – extract method and dividing into sub classes, remove unnecessary methods – howManyPlayers(), createRockQuestion(), announce()
+2.	Long method – dividing the works in other methods 
+3.	Dead Code – isPlayable() - removed
+4.	Switch Smell – map used
