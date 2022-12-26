@@ -12,13 +12,6 @@ public class TriviaGame {
     int currentPlayer = 0;
     boolean isGettingOutOfPenaltyBox;
 
-    public TriviaGame() {
-    }
-
-
-    public boolean isPlayable() {
-        return (howManyPlayers() >= 2);
-    }
 
     public boolean add(String playerName) {
 
@@ -26,12 +19,8 @@ public class TriviaGame {
         players.add(new Player(playerName));
 
         System.out.println(playerName + " was added");
-        System.out.println("They are player number " + howManyPlayers());
+        System.out.println("They are player number " + players.size());
         return true;
-    }
-
-    public int howManyPlayers() {
-        return players.size();
     }
 
     public Player getCurrentPlayer(int currentPlayer)
