@@ -7,8 +7,6 @@ import java.util.LinkedList;
 public class TriviaGame {
     ArrayList<Player> players = new ArrayList();
 
-    questions ques = new questions();
-    checkAnswer checkAns = new checkAns();
 
     int currentPlayer = 0;
     boolean isGettingOutOfPenaltyBox;
