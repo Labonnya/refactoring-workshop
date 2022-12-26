@@ -44,6 +44,9 @@ public class TriviaGame {
         }
 
     }
-
+ 
+    checkAnswer checkAns = new checkAnswer();
+    checkAns.wasCorrectlyAnswered();
+    checkAns.wrongAnswer();
 
    
