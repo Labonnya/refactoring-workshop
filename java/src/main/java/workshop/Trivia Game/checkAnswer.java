@@ -2,7 +2,7 @@
 
 import java.util.ArrayList;
 import java.util.LinkedList;
-
+ public class checkAnswer{
 public boolean wasCorrectlyAnswered() {
         if (getCurrentPlayer(currentPlayer).inPenaltyBox) {
             if (isGettingOutOfPenaltyBox) {
