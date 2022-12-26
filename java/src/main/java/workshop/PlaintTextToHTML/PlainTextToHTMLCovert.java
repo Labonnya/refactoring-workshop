@@ -24,10 +24,13 @@ public class PlaintextToHtmlConverter {
             String htmlLines = basicHtmlEncode(text);
             return htmlLines;
         }
-
+    
         protected String read() throws IOException {
-            return new String(Files.readAllBytes(Paths.get("sample.txt")));
-        }
+        Path filePath = Paths.get("sample.txt");
+        byte[] fileByteArray = Files.readAllBytes(filePath);
+        return new String(fileByteArray);
+    }
+       
 
         private String basicHtmlEncode(String source) {
             int i = 0;
@@ -45,7 +48,7 @@ public class PlaintextToHtmlConverter {
                    
                 if (i >= source.length()) break;
             }
-            addANewLine(convertedLine, result);
+           
             String finalResult = String.join("<br />", result);
             return finalResult;
         }
