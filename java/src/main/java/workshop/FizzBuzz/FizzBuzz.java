@@ -9,14 +9,13 @@ public class FizzBuzz {
     }
 
     public String checkPattern(int number) {
-        String strReturn = String.valueOf(number);
 
         for (PatternMatch patternMatcher : patternMatcher) {
             if (patternMatcher.matchPattern(number)) {
-                strReturn = patternMatcher.response();
+               return patternMatcher.response();
         }
        }
 
-        return strReturn;
+        
     }
 }
