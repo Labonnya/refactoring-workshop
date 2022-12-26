@@ -7,7 +7,7 @@ import java.util.LinkedList;
 public class TriviaGame {
     ArrayList<Player> players = new ArrayList();
 
-    Questions ques = new Questions();
+    questions ques = new questions();
     checkAnswer checkAns = new checkAns();
 
     int currentPlayer = 0;
