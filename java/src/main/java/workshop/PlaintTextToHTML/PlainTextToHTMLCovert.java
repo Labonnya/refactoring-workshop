@@ -33,7 +33,7 @@ public class PlaintextToHtmlConverter {
        
 
         private String basicHtmlEncode(String source) {
-            int i = 0;
+           
             List<String> result = new ArrayList<>();
             List<String> convertedLine = new ArrayList<>();
 
@@ -44,9 +44,9 @@ public class PlaintextToHtmlConverter {
                     if(charcon.checknConvert(characterToConvert))
                     {
                         convertedLine.add(charcon.addconverted());
-                    }
-                   
-                if (i >= source.length()) break;
+                        break;
+                    }         
+          
             }
            
             String finalResult = String.join("<br />", result);
