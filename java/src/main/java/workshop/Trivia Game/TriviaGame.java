@@ -8,6 +8,7 @@ public class TriviaGame {
     ArrayList<Player> players = new ArrayList();
 
     Questions ques = new Questions();
+    checkAnswer checkAns = new checkAns();
 
     int currentPlayer = 0;
     boolean isGettingOutOfPenaltyBox;
