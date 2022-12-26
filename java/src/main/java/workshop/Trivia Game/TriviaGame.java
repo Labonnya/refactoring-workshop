@@ -45,10 +45,11 @@ public class TriviaGame {
             Questions();
         }
 
-    }
+    
  
   
     wasCorrectlyAnswered() ; 
     wrongAnswer();
+    }
 
    
