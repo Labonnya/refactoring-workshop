@@ -3,7 +3,7 @@ package workshop;
 import java.util.ArrayList;
 import java.util.LinkedList;
 
-public class Player {
+public class player {
 
     String name;
     int places = 0;
@@ -23,7 +23,7 @@ public class Player {
         put(10,"Sports");
     }};
 
-    public Player(String playerName) {
+    public player(String playerName) {
         this.name = playerName;
     }
 
