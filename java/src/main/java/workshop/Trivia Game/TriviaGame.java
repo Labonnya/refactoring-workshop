@@ -41,6 +41,7 @@ public class TriviaGame {
 
             getCurrentPlayer(currentPlayer).setPlaces(roll);
             getCurrentPlayer(currentPlayer).newPositionCategory();
+            ques.Questions();
         }
 
     }
