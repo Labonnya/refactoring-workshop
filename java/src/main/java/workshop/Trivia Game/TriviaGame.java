@@ -46,11 +46,9 @@ public class TriviaGame {
         }
 
     }
- 
-  
     wasCorrectlyAnswered() ; 
     wrongAnswer();
     }
 
-}
+
 
