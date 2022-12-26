@@ -14,8 +14,6 @@ public class FizzBuzz {
             if (patternMatcher.matchPattern(number)) {
                return patternMatcher.response();
         }
-       }
-
-        
+      }       
     }
 }
