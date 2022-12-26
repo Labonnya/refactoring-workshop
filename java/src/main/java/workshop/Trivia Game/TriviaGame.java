@@ -41,13 +41,13 @@ public class TriviaGame {
 
             getCurrentPlayer(currentPlayer).setPlaces(roll);
             getCurrentPlayer(currentPlayer).newPositionCategory();
-            ques.Questions();
+            Questions();
         }
 
     }
  
-    checkAnswer checkAns = new checkAnswer();
-    checkAns.wasCorrectlyAnswered() ; 
-    checkAns.wrongAnswer();
+  
+    wasCorrectlyAnswered() ; 
+    wrongAnswer();
 
    
