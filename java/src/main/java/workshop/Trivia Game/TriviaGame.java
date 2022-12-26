@@ -46,7 +46,7 @@ public class TriviaGame {
     }
  
     checkAnswer checkAns = new checkAnswer();
-    checkAns.wasCorrectlyAnswered();
+    checkAns.wasCorrectlyAnswered() ; 
     checkAns.wrongAnswer();
 
    
