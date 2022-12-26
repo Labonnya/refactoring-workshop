@@ -1,19 +1,28 @@
 package workshop;
 
+
 import java.util.List;
 
+
 public class FizzBuzz {
-    private List<PatternMatch> patternMatcher;
-    public FizzBuzz(List<PatternMatch> patternMatcher) {
-        this.patternMatcher = patternMatcher;
-    }
+	private static List<PatternMatch> patternMatchers;
+	private static PatternMatch nullObjectPattern;
+    public FizzBuzz(List<PatternMatch> patternMatchers, PatternMatch nullObjectPattern) {
+		super();
+		FizzBuzz.patternMatchers = patternMatchers;
+		FizzBuzz.nullObjectPattern = nullObjectPattern;
+	}
 
-    public String checkPattern(int number) {
-
-        for (PatternMatch patternMatcher : patternMatcher) {
-            if (patternMatcher.matchPattern(number)) {
-               return patternMatcher.response();
-        }
-      }       
+	public static String checkPattern(int number) {
+        String strReturn = nullObjectPattern.response();
+        
+        for (PatternMatch patternMatcher : patternMatchers) {
+        	if (patternMatcher.matchPattern(number)) 
+            {
+                strReturn = patternMatcher.response();
+            }
+		}
+          
+        return strReturn;
     }
 }
