@@ -12,8 +12,10 @@ public class FizzBuzz {
         String strReturn = String.valueOf(number);
 
         for (PatternMatch patternMatcher : patternMatcher) {
-            if (patternMatcher.matchPattern(number)) strReturn = patternMatcher.response();
+            if (patternMatcher.matchPattern(number)) {
+                strReturn = patternMatcher.response();
         }
+       }
 
         return strReturn;
     }
