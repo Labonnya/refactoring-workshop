@@ -1,12 +1,14 @@
 Plain Text To HTML
 1.	Large class smell – removed unnecessary methods  { pushACharacterToTheOutput(), stashNextCharacterAndAdvanceThePointer(), addNewLine() }
-2.	Switch case smell – method extract and implementing interface
+2.	Switch case smell – method extract and implementing interface - CharacterConvert.java, ampersand.java, leftArrow.java, rightArrow.java, default.java, newLine.java, nullResponse.java
 3.	Comment Smell – appropriate naming 
 4.  Inappropriate naming smell - say method -- name changed
 
 FizzBuzz: 
-1.	Switch smell – method extraction 
-2.	Long method – extract method
+1.	Switch smell – method extraction - (BuzzPatternMatcher.java, FizzPatternMatcher.java, FizzBuzzPatternMatcher.java, PatternMatch.java)
+2.	Long method – extract method - same as above
+3. Dead Code - removed dead code part - removed from line 21
+4. Inappropriate name - say method name changed to checkPattern
 
 Trivia Game: 
 1.	Large class – extract method and dividing into sub classes, remove unnecessary methods – howManyPlayers(), createRockQuestion(), announce()
