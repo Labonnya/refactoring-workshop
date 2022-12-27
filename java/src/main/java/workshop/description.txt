@@ -9,6 +9,7 @@ FizzBuzz:
 2.	Long method – extract method - same as above
 3. Dead Code - removed dead code part - removed from line 21
 4. Inappropriate name - say method name changed to checkPattern
+5. Duplicate code - implementing interface PatternMatch.java
 
 Trivia Game: 
 1.	Large class – extract method and dividing into sub classes, remove unnecessary methods – howManyPlayers(),  announce()
