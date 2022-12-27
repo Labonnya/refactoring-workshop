@@ -2,7 +2,7 @@ Plain Text To HTML
 1.	Large class smell – removed unnecessary methods  { pushACharacterToTheOutput(), stashNextCharacterAndAdvanceThePointer(), addNewLine() }
 2.	Switch case smell – method extract and implementing interface - CharacterConvert.java, ampersand.java, leftArrow.java, rightArrow.java, default.java, newLine.java, nullResponse.java
 3.	Comment Smell – appropriate naming 
-4.  Inappropriate naming smell - say method -- name changed
+4.  Long method - interface implementation - CharacterConvert.java
 
 FizzBuzz: 
 1.	Switch smell – method extraction - (BuzzPatternMatcher.java, FizzPatternMatcher.java, FizzBuzzPatternMatcher.java, PatternMatch.java)
