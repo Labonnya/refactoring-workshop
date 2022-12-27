@@ -6,15 +6,15 @@ import java.util.List;
 
 public class FizzBuzz {
 	private static List<PatternMatch> patternMatchers;
-	private static PatternMatch nullObjectPattern;
-    public FizzBuzz(List<PatternMatch> patternMatchers, PatternMatch nullObjectPattern) {
-		super();
+	
+    public FizzBuzz(List<PatternMatch> patternMatcher) {
+		
 		FizzBuzz.patternMatchers = patternMatchers;
-		FizzBuzz.nullObjectPattern = nullObjectPattern;
+		
 	}
 
 	public static String checkPattern(int number) {
-        String strReturn = nullObjectPattern.response();
+       
         
         for (PatternMatch patternMatcher : patternMatchers) {
         	if (patternMatcher.matchPattern(number)) 
