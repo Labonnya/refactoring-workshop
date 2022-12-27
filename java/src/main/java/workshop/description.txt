@@ -2,6 +2,7 @@ Plain Text To HTML
 1.	Large class smell – removed unnecessary methods  { pushACharacterToTheOutput(), stashNextCharacterAndAdvanceThePointer(), addNewLine() }
 2.	Switch case smell – method extract and implementing interface
 3.	Comment Smell – appropriate naming 
+4.  Inappropriate naming smell - say method -- name changed
 
 FizzBuzz: 
 1.	Switch smell – method extraction 
