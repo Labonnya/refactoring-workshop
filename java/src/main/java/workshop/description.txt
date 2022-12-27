@@ -11,7 +11,8 @@ FizzBuzz:
 4. Inappropriate name - say method name changed to checkPattern
 
 Trivia Game: 
-1.	Large class – extract method and dividing into sub classes, remove unnecessary methods – howManyPlayers(), createRockQuestion(), announce()
+1.	Large class – extract method and dividing into sub classes, remove unnecessary methods – howManyPlayers(),  announce()
 2.	Long method – dividing the works in other methods 
 3.	Dead Code – isPlayable() - removed
 4.	Switch Smell – map used
+5. Duplicate code - createRockQuestion()
