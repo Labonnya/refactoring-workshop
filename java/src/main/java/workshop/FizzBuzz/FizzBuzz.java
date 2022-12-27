@@ -14,7 +14,7 @@ public class FizzBuzz {
 	}
 
 	public static String checkPattern(int number) {
-       
+         String strReturn = String.valueOf(number);
         
         for (PatternMatch patternMatcher : patternMatchers) {
         	if (patternMatcher.matchPattern(number)) 
